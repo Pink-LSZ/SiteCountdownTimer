@@ -1,0 +1,56 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: table;
+}
+
+canvas {
+    width: 900px;
+    height: 200px;
+    display: block;
+    position: relative;
+    background: transparent;
+    margin: 40px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Comic Sans MS", "Comic Sans", sans-seriff;
+    margin: 0.5rem 0px;
+}
+
+canvas {
+    margin: 1rem auto;
+}
+
+.page-bg {
+    background-image: linear-gradient(to bottom right, #940242 0%, #f15483 100%);
+    background-size: cover;
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
